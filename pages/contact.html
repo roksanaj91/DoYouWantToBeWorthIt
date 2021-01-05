@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Skontaktuj się z nami.</title>
+    <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+    <div class="wrapper">
+        <nav class="nav">
+        <ul class="nav__list">
+            <li class="nav__link__item"><a href="../index.html" class="nav__list__link">Czy chcesz być tego warta/y?</a></li>
+            <li class="nav__link__item"><a href="./cfAndVegan.html" class="nav__list__link">CF & Vegan</a></li>
+                <li class="nav__link__item"><a href="./companies.html" class="nav__list__link">Poznaj <strong>prawdziwe</strong> marki</a></li>
+                <li class="nav__link__item"><a href="./contact.html" class="nav__list__link">Kontakt</a></li>
+            </ul>
+        </nav>
+        <main class="main__contact">
+            <div class="askFromHeading">
+                <h2>Chcesz zadać nam pytanie?</h2>
+                <p>Użyj tego formularza.</p>
+            </div>
+                <form action="#" subject="temat" method="post" class="contactAskForm">
+                    <input type="text" name="name" placeholder="Wpisz imię" class="askFromElement">
+                    <input type="text" name="surname" placeholder="Wpisz nazwisko" class="askFromElement"><br>
+                    <textarea placeholder="Treść wiadomości" rows="5" class="askFromElement askFromTxtArea"></textarea>
+                    <br>
+                    <button type="submit" class="askFromSubmit">Wyślij</button>
+                </form>
+                <br>
+            <div class="applyFromHeading">
+                 <h2>Chcesz wziać udział w tworzeniu tej strony?</h2>
+                 <p>Użyj tego formularza.</p>
+             </div>
+                <form action="#" subject="temat" method="post" class="contactApplyForm">
+                 <input type="text" name="name" placeholder="Imię" class="applyFromElement">
+                 <input type="text" name="surname" placeholder="Nazwisko" class="applyFromElement"><br>
+                 <p class="applyForm__question">Wybierz płeć</p>
+                 <select name="sex">
+                    <option selected>Kobieta</option>
+                    <option>Mężczyzna</option>
+                    <option>Nie chcę podawać</option>
+                </select>
+                 <p class="applyForm__question">Czy jesteś pełnoletni/a?</p>
+                 <input type="radio" name="age" value="Tak"> Tak
+                 <input type="radio" name="age" value="Nie"> Nie
+                 <br><br>
+                 <p class="applyForm__question">Wybierz tematy, którymi jesteś zainteresowany/na.</p>
+                 <input type="checkbox" name="interests" value="tests" class="applyFrom__checkItem">Testy na zwierzętach<br>
+                <input type="checkbox" name="interests" value="vegan" class="applyFrom__checkItem">Weganizm<br>
+                <input type="checkbox" name="interests" value="protect" class="applyFrom__checkItem">Ochrona środowiska<br>
+                <input type="checkbox" name="interests" value="education" class="applyFrom__checkItem">Edukacja społeczności<br>
+                <input type="checkbox" name="interests" value="other" class="applyFrom__checkItem">Inne:
+                <input name="interests">
+                <br><br>
+                 <button type="submit" class="applyFromSubmit">Wyślij</button>
+                </form>      
+        </main>
+        <footer class="footer">
+            <p>Wszystkie prawa zastrzeżone. Zakaz kopiowania!</p>
+        </footer>
+    </div>
+</body>
+</html>

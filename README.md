@@ -3,8 +3,6 @@
 
 # htmlAndCssProject(ENG)
 Project written to pass HTML and CSS subject.
-The website is fully resposnsive.
 
 # htmlAndCssProject(PL)
 Projekt napisany na zaliczenie przedmiotu z HTML oraz CSS.
-Strona jest w pełni responsywna.
